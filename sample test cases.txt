@@ -1,0 +1,18 @@
+
+case 1:
+bodies(1) = addStruct('A' , 10   , 120   , [200 800 700]    , [10 -25 40]);
+bodies(2) = addStruct('B' , 150000   , 120   , [0 0 0]   , [0 -1 0]);
+bodies(3) = addStruct('C' , 2.5    , 25   , [0 -2000 2000]     , [25 0 0]);
+bodies(4) = addStruct('D' , 2.5    , 25   , [0 -2000 -2000]    , [25 0 0]);
+bodies(5) = addStruct('E' , 5    , 50   , [400 0 0]    , [0 65 45]);
+bodies(6) = addStruct('F' , 2.5    , 5   , [0 -1600 0]    , [-20 -15 -6]);
+bodies(7) = addStruct('G' , 2.5    , 5   , [-2000 0 0]    , [0 0 -15]);
+
+case 2:
+bodies(1) = addBody('A' , 8000   , 120   , [2000 0 0]    , [0 25 0]);
+bodies(2) = addBody('B' , 150000 , 220   , [0 0 0]   , [0 1 0]);
+bodies(3) = addBody('C' , 8000   , 120   , [-2000 0 0]    , [0 -43.75 0]);
+
+case 3
+bodies(1) = addBody('A' , 8000 , 50   , [2000 0 0]   , [0 0 0]);
+bodies(2) = addBody('B' , 8000 , 50   , [-2000 0 0]   , [0 0 0]);
